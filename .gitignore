@@ -1,0 +1,22 @@
+node_modules
+pnpm-lock.yaml
+.env
+.env.local
+.env.*.local
+.DS_Store
+
+# Next.js
+apps/web/.next
+apps/web/out
+apps/web/.turbo
+
+# Hardhat
+packages/contracts/cache
+packages/contracts/artifacts
+packages/contracts/typechain-types
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

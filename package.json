@@ -1,0 +1,13 @@
+{
+  "name": "web3-dapp-poc",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@8.15.0",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "lint": "pnpm --filter web lint",
+    "chain": "pnpm --filter contracts hardhat node",
+    "deploy": "pnpm --filter contracts run deploy"
+  }
+}
