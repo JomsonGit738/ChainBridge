@@ -1,4 +1,4 @@
-# Web3 dApp POC — Wallet Connect + Contract Read/Write + GraphQL Feed
+# chainbridge-web3-poc — Wallet Connect + Contract Read/Write + GraphQL Feed
 
 A turnkey monorepo showcasing wallet connection, Hardhat smart contract reads/writes, live events, a recent transaction list, and a GraphQL/indexer-style feed. Built with **Next.js (App Router) + TypeScript**, **RainbowKit + wagmi + viem**, **Tailwind + shadcn-style components**, and **Hardhat**.
 
